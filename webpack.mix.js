@@ -15,4 +15,4 @@ mix.js('resources/js/app.js', 'public/js')
    .postCss('resources/css/main.css', 'public/css', [
      require('tailwindcss'),
    ])
-   .browserSync('vue-weather-app.test')
+   .browserSync('http://localhost:8000')

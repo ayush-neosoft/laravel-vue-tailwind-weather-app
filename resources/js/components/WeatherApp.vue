@@ -50,16 +50,16 @@ export default {
   mounted() {
     this.fetchData()
 
-    var placesAutocomplete = places({
-        appId: 'plOB0CPNDK6B',
-        apiKey: 'b00e98c9df4a6e7442c9947b707bcff5',
+    let placesAutocomplete = places({
+        appId: 'plST0CHIAGFH',
+        apiKey: '46d6b8d482c9870f482c87dbe410f96a',
         container: document.querySelector('#address')
       }).configure({
         type: 'city',
         aroundLatLngViaIP: false,
       });
 
-    var $address = document.querySelector('#address-value')
+    let $address = document.querySelector('#address-value')
 
       placesAutocomplete.on('change', (e) => {
         $address.textContent = e.suggestion.value
@@ -104,7 +104,7 @@ export default {
   },
   methods: {
     fetchData() {
-      var skycons = new Skycons({'color': 'white'});
+      let skycons = new Skycons({'color': 'white'});
 
       fetch(`/api/weather?lat=${this.location.lat}&lng=${this.location.lng}`)
         .then(response => response.json())

@@ -1961,8 +1961,8 @@ __webpack_require__.r(__webpack_exports__);
 
     this.fetchData();
     var placesAutocomplete = places({
-      appId: 'plOB0CPNDK6B',
-      apiKey: 'b00e98c9df4a6e7442c9947b707bcff5',
+      appId: 'plST0CHIAGFH',
+      apiKey: '46d6b8d482c9870f482c87dbe410f96a',
       container: document.querySelector('#address')
     }).configure({
       type: 'city',
@@ -49884,8 +49884,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/MAMP/htdocs/vue-weather-app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/vue-weather-app/resources/css/main.css */"./resources/css/main.css");
+__webpack_require__(/*! /home/neosoft/code/Laravel/vue-weather-app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/neosoft/code/Laravel/vue-weather-app/resources/css/main.css */"./resources/css/main.css");
 
 
 /***/ })
